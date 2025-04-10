@@ -22,8 +22,8 @@ jobs:
   bye_world: 
 
     runs-on: ubuntu-latest 
-    
-    
+    needs: hello-world
+
     steps:
     - name: Bye World
       run: echo "Bye World"
