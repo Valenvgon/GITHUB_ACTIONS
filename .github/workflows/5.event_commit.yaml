@@ -1,4 +1,4 @@
-name: Event Vommit - Single job 
+name: Event commit - Single job 
 
 on: 
   push:
