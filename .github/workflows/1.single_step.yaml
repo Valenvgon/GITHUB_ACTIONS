@@ -1,11 +1,18 @@
-name: First Action - Single 
+name: First Action - Single
 
-on: 
-  worrkflow_dispatch:
+on:
 
-jobs: 
-  hello_world:
+  workflow_dispatch:
+
+jobs:
+
+  hello-world:
+
     runs-on: ubuntu-latest
+
     steps:
+
     - name: Fist Step
+
       run: echo "Hello World"
+ 
